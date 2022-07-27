@@ -4,8 +4,8 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { ConfigurationByIdComponent, SelectForShow } from '../configuration/configuration-by-id/configuration-by-id.component';
-import { CreteModelComponent } from '../Shared/crete-model/crete-model.component';
-import { OpenErrorPageService } from '../Shared/OpenErrorPageService';
+import { CreteModelComponent } from '../shared/crete-model/crete-model.component';
+import { OpenErrorPageService } from '../shared/OpenErrorPageService';
 import { ComponentService } from './ComponentService';
 import { IComponent } from './IComponent';
 @Component({

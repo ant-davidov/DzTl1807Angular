@@ -3,17 +3,15 @@ import { AfterViewInit, Component, OnInit, resolveForwardRef, ViewChild } from '
 import { ComputerService } from './ComputerService';
 import {Dialog, DialogRef, DIALOG_DATA} from '@angular/cdk/dialog';
 import { ConfigurationByIdComponent, SelectForShow } from '../configuration/configuration-by-id/configuration-by-id.component';
-import { CreteModelComponent } from '../Shared/crete-model/crete-model.component';
-import { UpdateAndCreateService } from '../Shared/UpdateAndCreate.service';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { MatSort, Sort } from '@angular/material/sort';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { ErrorPageComponent } from '../Shared/error-page/error-page.component';
-import { OpenErrorPageService } from '../Shared/OpenErrorPageService';
 import { LiveAnnouncer } from '@angular/cdk/a11y';
 import { MatTableDataSource } from '@angular/material/table';
 import { IComputer } from './IComputer';
+import { CreteModelComponent } from '../shared/crete-model/crete-model.component';
+import { OpenErrorPageService } from '../shared/OpenErrorPageService';
 
 
 

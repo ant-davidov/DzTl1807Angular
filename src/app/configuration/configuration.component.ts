@@ -2,11 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { IConfiguration } from './IConfiguration';
 import { ConfigurationService } from './ConfigurationService';
 import { Dialog } from '@angular/cdk/dialog';
-
-import { CreteModelComponent } from '../Shared/crete-model/crete-model.component';
-
 import { SelectComponent } from './select/select.component';
 import { MatTableDataSource } from '@angular/material/table';
+import { CreteModelComponent } from '../shared/crete-model/crete-model.component';
 
 
 

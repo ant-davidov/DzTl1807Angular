@@ -54,11 +54,11 @@ import { ComponentComponent } from './component/component.component';
 
 import { ComponentService } from './component/ComponentService';
 import { ConfigurationByIdComponent } from './configuration/configuration-by-id/configuration-by-id.component';
-import { CreteModelComponent } from './Shared/crete-model/crete-model.component';
+import { CreteModelComponent } from './shared/crete-model/crete-model.component';
 
-import { UpdateAndCreateService } from './Shared/UpdateAndCreate.service';
+import { UpdateAndCreateService } from './shared/UpdateAndCreate.service';
 import { SelectComponent } from './configuration/select/select.component';
-import { ErrorPageComponent } from './Shared/error-page/error-page.component';
+import { ErrorPageComponent } from './shared/error-page/error-page.component';
 
 
 
