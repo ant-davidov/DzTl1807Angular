@@ -17,13 +17,13 @@ export enum SelectForShow {
 export class ConfigurationByIdComponent  implements OnInit
 {
   public _configuration!: IConfiguration;
-  selectForShow=SelectForShow
+  selectForShow=SelectForShow;
   id:number=1;
   constructor(private configurationService:ConfigurationService ,@Inject(DIALOG_DATA) public data: {id:number, select:SelectForShow}) 
   {
     this.configurationService.GetById(data.id).subscribe(todos => {
       this._configuration = todos  
-        } )
+      } )
      
   }
   ngOnInit() {
