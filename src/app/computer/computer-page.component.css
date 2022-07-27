@@ -1,0 +1,49 @@
+.demo-table {
+  width: 100%;
+
+}
+
+.demo-button-container 
+{
+  padding-bottom:1rem;
+  margin-left: 10%;
+  margin-top: 1%;
+}
+#ButtonDelete
+{
+  background: #f44336;
+}
+#ButtonUpdate
+{
+  background: #fc8803;
+}
+#ButtonAdd
+{
+  background: #03fcdb;
+}
+
+.demo-button + .demo-button {
+  margin-left: 8px;
+}
+.mat-elevation-z8-demo-table
+{
+  width: 80%;
+  Margin-left :10%;
+}
+.mat-elevation-z8-demo-table
+{
+  background: #121212;
+ 
+}
+.mat-header-cell
+{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  border-color: rgb(0, 174, 255);
+}
+.mat-cell
+{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  border-color: aqua;
+}

@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: auto;  background-color: #121212;}
+
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+table {
+    border-color: aqua;
+    color: #b41b1b;
+    color: 	rgb(255,0,255);
+}
+a
+{
+    color: aquamarine;
+    text-decoration: none;
+    cursor: pointer;
+}
+A:hover { 
+    text-decoration: underline; /* Добавляем подчеркивание при наведении курсора на ссылку */
+    color: rgb(53, 154, 185); /* Ссылка красного цвета */
+   } 
+   

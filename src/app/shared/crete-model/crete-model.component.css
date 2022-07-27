@@ -1,0 +1,28 @@
+
+:host {
+    display: block;
+    background: rgb(1, 25, 53);
+    border-radius: 8px;
+    padding: 8px 16px 16px;
+  }
+  
+  input {
+    margin: 8px 0;
+  }
+  
+  button + button {
+    margin-left: 8px;
+  }
+  input {
+    height: 30px;
+    width: 15;
+  }
+
+ #button1
+ {
+  background-color: rgb(0, 255, 242);
+ }
+ #button2
+ {
+  background-color: rgb(45, 101, 255);
+ }

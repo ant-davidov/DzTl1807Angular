@@ -1,0 +1,19 @@
+
+<mat-card class="example-card" *ngIf="_configuration">
+    <mat-card-title>№ {{_configuration.id}}</mat-card-title>
+    <mat-card-subtitle>Picker: {{_configuration.picker}}</mat-card-subtitle>
+    <mat-card-content>
+      <h3>Type : {{_configuration.type}}</h3>
+      <h4>Description</h4>
+      <p>{{_configuration.description}}</p>
+      <div *ngIf="data.select==selectForShow.Pc">
+        <h4 >Component </h4>
+        <li *ngFor="let item of this._configuration.component">{{item.model}}</li>
+      </div>
+
+      <div *ngIf="data.select==selectForShow.Component &&  this._configuration.computers?.length !=0">
+        <h4 >Pc </h4>
+        <li   *ngFor="let item of this._configuration.computers">{{item.owner}}, {{item.totalPrice}}₽</li>
+      </div>
+    </mat-card-content>
+  </mat-card>

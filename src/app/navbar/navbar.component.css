@@ -1,0 +1,14 @@
+.fill-remaining-space {
+    /*This fills the remaining space, by using flexbox.  
+   Every toolbar row uses a flexbox row layout. */
+  margin-left: 10%;
+ }
+.mat-primary {
+    background: #6f0a9e;
+    color: #fff;
+   
+  }
+  .mat-button
+  {
+    padding-left:2rem;
+  }
